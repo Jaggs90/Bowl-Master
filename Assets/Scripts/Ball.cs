@@ -5,8 +5,8 @@ using UnityEngine;
 public class Ball : MonoBehaviour {
 
 	public Vector3 launchVeclocity;
-
 	public bool inPlay = false;
+
 	private Vector3 ballStartPos;
 	private Rigidbody rigidBody;
 	private AudioSource audioSource;
